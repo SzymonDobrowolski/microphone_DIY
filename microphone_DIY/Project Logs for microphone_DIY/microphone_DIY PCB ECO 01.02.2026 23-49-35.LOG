@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=PCM_D+ Pin=R2-2
+Added Pin To Net: NetName=PCM_D+ Pin=U1-1
+Change Net Name : Old Net Name=PCM_D+ New Net Name=PCM_P
+Change Net Name : Old Net Name=USB_D- New Net Name=USB_N
+Change Net Name : Old Net Name=USB_D+ New Net Name=USB_P
+Added Pin To Net: NetName=PCM_N Pin=R3-1
+Added Pin To Net: NetName=PCM_N Pin=R3-2
+Added Pin To Net: NetName=PCM_N Pin=U1-2
+Added Pin To Net: NetName=PCM_N Pin=U2-4
+Added Net: Name=PCM_N

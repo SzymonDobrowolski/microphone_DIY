@@ -1,0 +1,3 @@
+Add Differential Pair: Number of nets in differential pair PCM_D- is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair PCM_D+ is 1 instead of 2
+Added Member To Class: ClassName=microphone_DIY Member=Component U1 PCM2906CDB

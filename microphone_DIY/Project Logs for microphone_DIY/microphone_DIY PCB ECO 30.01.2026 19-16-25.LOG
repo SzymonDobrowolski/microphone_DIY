@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VBUS Pin=U2-5
+Added Pin To Net: NetName=NetJ1_A4 Pin=U2-5
+Change Net Name : Old Net Name=NetJ1_A4 New Net Name=VBUS_ESD
+Added Member To Class: ClassName=microphone_DIY Member=Component C11 293D105X9016A2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component R4 ERJP06F5101V

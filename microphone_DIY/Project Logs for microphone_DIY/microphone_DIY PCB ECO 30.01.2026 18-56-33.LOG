@@ -1,0 +1,111 @@
+Removed Pin From Net: NetName=NetC?_1 Pin=U?-1
+Removed Pin From Net: NetName=LDO_OUT Pin=U?-3
+Removed Pin From Net: NetName=AGNDC Pin=U?-4
+Removed Pin From Net: NetName=LDO_OUT Pin=U?-8
+Removed Member From Class: ClassName=microphone_DIY Member=U?
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=C? NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C10
+Change Component Designator: OldDesignator=C? NewDesignator=C11
+Change Component Designator: OldDesignator=C? NewDesignator=C12
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Change Component Designator: OldDesignator=C? NewDesignator=C15
+Change Component Designator: OldDesignator=C? NewDesignator=C16
+Change Component Designator: OldDesignator=C? NewDesignator=C17
+Change Component Designator: OldDesignator=C? NewDesignator=C18
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=L? NewDesignator=L1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=R? NewDesignator=R13
+Change Component Designator: OldDesignator=R? NewDesignator=R14
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=Y? NewDesignator=Y1
+Added Pin To Net: NetName=NetC?_1 Pin=U3-1
+Added Pin To Net: NetName=LDO_OUT Pin=U3-3
+Added Pin To Net: NetName=AGNDC Pin=U3-4
+Added Pin To Net: NetName=LDO_OUT Pin=U3-8
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC10_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC2_2
+Change Net Name : Old Net Name=NetJ?_A4 New Net Name=NetJ1_A4
+Change Net Name : Old Net Name=NetJ?_A5 New Net Name=NetJ1_A5
+Change Net Name : Old Net Name=NetJ?_B5 New Net Name=NetJ1_B5
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR3_2
+Change Net Name : Old Net Name=NetU?_6 New Net Name=NetU3_6
+Added Pin To Net: NetName=NetC11_2 Pin=C11-2
+Added Pin To Net: NetName=NetC11_2 Pin=C13-1
+Added Pin To Net: NetName=NetC11_2 Pin=R9-1
+Added Pin To Net: NetName=NetC11_2 Pin=R10-1
+Added Pin To Net: NetName=NetC11_2 Pin=R11-2
+Added Net: Name=NetC11_2
+Added Pin To Net: NetName=NetC14_1 Pin=C14-1
+Added Pin To Net: NetName=NetC14_1 Pin=R12-1
+Added Pin To Net: NetName=NetC14_1 Pin=R13-1
+Added Net: Name=NetC14_1
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U1-1
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR10_2 Pin=R10-2
+Added Pin To Net: NetName=NetR10_2 Pin=R12-2
+Added Pin To Net: NetName=NetR10_2 Pin=U3-2
+Added Net: Name=NetR10_2
+Added Member To Class: ClassName=microphone_DIY Member=Component C1 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C2 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C3 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C4 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C5 593D106X9016B2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component C6 593D106X9016B2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component C7 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C8 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C9 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C10 593D106X9016B2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component C12 593D106X9016B2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component C13 593D106X9016B2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component C14 593D106X9016B2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component C15 08055C105KAT2A
+Added Member To Class: ClassName=microphone_DIY Member=Component C16 0805B106K100CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C17 VJ0805A120JXACW1BC
+Added Member To Class: ClassName=microphone_DIY Member=Component C18 VJ0805A120JXACW1BC
+Added Member To Class: ClassName=microphone_DIY Member=Component J1 USB4145-03-0230-C
+Added Member To Class: ClassName=microphone_DIY Member=Component J2 TSW-102-12-T-S
+Added Member To Class: ClassName=microphone_DIY Member=Component R1 AR05BTCW1501
+Added Member To Class: ClassName=microphone_DIY Member=Component R2 CPF0805B22RE1
+Added Member To Class: ClassName=microphone_DIY Member=Component R3 CPF0805B22RE1
+Added Member To Class: ClassName=microphone_DIY Member=Component R5 ERJ-6GEYJ2R2V
+Added Member To Class: ClassName=microphone_DIY Member=Component R6 ERJP06F5101V
+Added Member To Class: ClassName=microphone_DIY Member=Component R7 ERJ-6ENF1002V
+Added Member To Class: ClassName=microphone_DIY Member=Component R8 ERA6AEB222V
+Added Member To Class: ClassName=microphone_DIY Member=Component R9 ERJ-6ENF1002V
+Added Member To Class: ClassName=microphone_DIY Member=Component R10 ERJ-6GEYJ104V
+Added Member To Class: ClassName=microphone_DIY Member=Component R11 ERJ-6ENF1002V
+Added Member To Class: ClassName=microphone_DIY Member=Component R12 AR05BTCW1501
+Added Member To Class: ClassName=microphone_DIY Member=Component R13 ERJ6ENF4702V
+Added Member To Class: ClassName=microphone_DIY Member=Component R14 ERJ-6GEYJ105V
+Added Member To Class: ClassName=microphone_DIY Member=Component U1 PCM2906CDB
+Added Member To Class: ClassName=microphone_DIY Member=Component U2 USBLC6-2SC6
+Added Member To Class: ClassName=microphone_DIY Member=Component U3 OPA1688IDR
+Added Member To Class: ClassName=microphone_DIY Member=Component U4 MCP1700T-3302E/TT

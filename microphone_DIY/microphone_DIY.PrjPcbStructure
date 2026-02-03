@@ -1,1 +1,2 @@
-Record=TopLevelDocument|FileName=microphone_DIY.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=Mic_top.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=Mic_top.SchDoc|FileName=microphone_DIY.SchDoc|SheetNumber=1

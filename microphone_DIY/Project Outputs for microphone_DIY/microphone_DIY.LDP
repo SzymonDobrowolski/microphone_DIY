@@ -1,0 +1,5 @@
+Layer Pairs Export File for PCB: D:\Github\microphone_DIY\microphone_DIY\microphone_DIY.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=microphone_diy-roundholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=microphone_diy-slotholes-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=microphone_diy-roundholes-nonplated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Slot_Holes|DrillFile=microphone_diy-slotholes-nonplated.txt|DrillLayers=gtl,gbl
