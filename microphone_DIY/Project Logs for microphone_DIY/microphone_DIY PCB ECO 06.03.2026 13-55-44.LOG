@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=VDDI Pin=U1-8
+Added Member To Class: ClassName=microphone_DIY Member=Component C3 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C4 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C6 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C7 593D106X9016B2TE3
+Added Member To Class: ClassName=microphone_DIY Member=Component C8 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C9 0805B104K500CT
+Added Member To Class: ClassName=microphone_DIY Member=Component C12 593D106X9016B2TE3

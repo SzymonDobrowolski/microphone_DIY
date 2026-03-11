@@ -1,15 +1,12 @@
 Output: NC Drill Files
 Type  : NC Drill
 From  : Project [microphone_DIY.PrjPcb]
-   Generated File[microphone_DIY-RoundHoles-Plated.TXT]
-   Generated File[microphone_DIY-RoundHoles-NonPlated.TXT]
-   Generated File[microphone_DIY-SlotHoles-Plated.TXT]
-   Generated File[microphone_DIY-SlotHoles-NonPlated.TXT]
-   Generated File[microphone_DIY.LDP]
-   Generated File[microphone_DIY.DRR]
+   Generated File[microphone_DIY_top-Plated.TXT]
+   Generated File[microphone_DIY_top.LDP]
+   Generated File[microphone_DIY_top.DRR]
 
 
-Files Generated   : 6
+Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 14:43:16 On 06.02.2026
+Finished Output Generation At 14:08:37 On 06.03.2026
