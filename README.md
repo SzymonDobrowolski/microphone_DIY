@@ -1,6 +1,6 @@
 # High-Fidelity DIY USB Microphone 🎙️
 
-![Main Board Isometric View](3D_images/Main_top_iso.png)
+![Main Board Isometric View](microphone_DIY/3D_images/Main_top_iso.png)
 
 Welcome to the **High-Fidelity DIY USB Microphone** project repository! This project features a custom-designed, two-board USB audio interface and microphone preamplifier built from scratch. The primary goal of this project was to achieve a studio-grade noise floor (-90 dB to -100 dB) using carefully selected components and advanced mixed-signal PCB design techniques.
 
@@ -17,7 +17,7 @@ Welcome to the **High-Fidelity DIY USB Microphone** project repository! This pro
 ## 📊 Performance & Measurements
 The circuit has been tested and analyzed to ensure the absence of USB digital noise, high-frequency coil whine, and ground loops. The spectral analysis of the raw audio output (silence/ambient room noise) yielded outstanding results.
 
-![Spectrum Analysis](3D_images/Frequency%20analysis.png)
+![Spectrum Analysis](microphone_DIY/3D_images/Frequency%20analysis.png)
 
 * **Low Frequencies (50 Hz - 150 Hz):** ~ -50 dB to -60 dB *(Represents natural room ambient noise, e.g., PC fans. No 50Hz mains hum detected).*
 * **Mid Frequencies (1 kHz - 5 kHz):** -78 dB dropping to -94 dB *(The most sensitive range for human hearing is completely free of digital artifacts).*
@@ -33,8 +33,8 @@ The circuit has been tested and analyzed to ensure the absence of USB digital no
 The main board handles USB communication, digital-to-analog/analog-to-digital conversion, and power regulation.
 
 <p align="center">
-  <img src="3D_images/Main_top.png" width="45%" alt="Main Board Top">
-  <img src="3D_images/Main_bottom.png" width="45%" alt="Main Board Bottom">
+  <img src="microphone_DIY/3D_images/Main_top.png" width="45%" alt="Main Board Top">
+  <img src="microphone_DIY/3D_images/Main_bottom.png" width="45%" alt="Main Board Bottom">
 </p>
 
 * **Audio Codec:** Texas Instruments **PCM2906C** (16-bit, 48kHz).
@@ -45,10 +45,10 @@ The main board handles USB communication, digital-to-analog/analog-to-digital co
 ### 2. Amp Board (Microphone Preamplifier)
 The small, circular board is designed to be housed directly behind the microphone capsule.
 
-![Amp Board Isometric](3D_images/Amp_top_iso.png)
+![Amp Board Isometric](microphone_DIY/3D_images/Amp_top_iso.png)
 
-* **Op-Amp:** Texas Instruments **OPA1688** configured with optimal gain ($33\text{ k}\Omega$ feedback resistor).
-* **Input Filtering:** Features an RC filter on the microphone bias and an RF low-pass filter (100 $\Omega$ + 100 pF C0G capacitor) on the op-amp input to reject electromagnetic interference.
+* **Op-Amp:** Texas Instruments **OPA1688** configured with optimal gain (33 kΩ feedback resistor).
+* **Input Filtering:** Features an RC filter on the microphone bias and an RF low-pass filter (100 Ω + 100 pF C0G capacitor) on the op-amp input to reject electromagnetic interference.
 * **Coupling:** High-quality capacitors block DC offset while preserving low-frequency bass response.
 
 ---
