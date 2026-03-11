@@ -1,2 +1,2 @@
 # microphone_DIY
-Project of microphone with external audio codec.
+Project of microphone with audio codec.
