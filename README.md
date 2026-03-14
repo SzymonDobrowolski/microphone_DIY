@@ -1,5 +1,12 @@
 # High-Fidelity DIY USB Microphone 🎙️
 
+![Designed in Altium](https://img.shields.io/badge/Designed_in-Altium_Designer-A58231?style=for-the-badge&logo=altium&logoColor=white)
+![Interface USB-C](https://img.shields.io/badge/Interface-USB_Type--C-0058A9?style=for-the-badge&logo=usb&logoColor=white)
+![Audio Resolution](https://img.shields.io/badge/Audio-16--bit_%2F_48kHz-FF8C00?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Ready_for_Fabrication-28A745?style=for-the-badge)
+
+<br>
+
 ![Main Board Isometric View](microphone_DIY/3D_images/Main_top_iso.png)
 
 Welcome to the **High-Fidelity DIY USB Microphone** project repository! This project features a custom-designed, two-board USB audio interface and microphone preamplifier built from scratch. The primary goal of this project was to achieve a studio-grade noise floor (-90 dB to -100 dB) using carefully selected components and advanced mixed-signal PCB design techniques.
