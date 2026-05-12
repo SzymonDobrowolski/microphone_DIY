@@ -89,6 +89,10 @@ Listen to the difference between the unprocessed signal and the final DSP-tuned 
 | **Raw Input** | Direct signal from the PCB | <video controls src="https://raw.githubusercontent.com/SzymonDobrowolski/microphone_DIY/main/microphone_DIY/Samples/sample_raw.mp3" width="250"></video> |
 | **Processed** | Final output with DSP | <video controls src="https://raw.githubusercontent.com/SzymonDobrowolski/microphone_DIY/main/microphone_DIY/Samples/sample_processed.mp3" width="250"></video> |
 
+<audio controls src="https://raw.githubusercontent.com/SzymonDobrowolski/microphone_DIY/main/microphone_DIY/Samples/sample_raw.mp3"></audio>
+
+[▶️ Play Audio](https://raw.githubusercontent.com/SzymonDobrowolski/microphone_DIY/main/microphone_DIY/Samples/sample_processed.mp3)
+
 ---
 
 ## 📸 Final Project Showcase
