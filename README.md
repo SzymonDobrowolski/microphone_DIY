@@ -84,11 +84,10 @@ The spectral analysis below demonstrates the frequency response of a recorded vo
 ### Audio Samples (Raw vs. Processed)
 Listen to the difference between the unprocessed signal and the final DSP-tuned output. The combination of the clean AOM-5024L hardware capture and DSP tuning produces a premium broadcast sound.
 
-| Version | Description | Audio File |
+| Version | Description | Audio Player |
 | :--- | :--- | :--- |
-| **Raw Input** | Direct signal from the PCB without software processing | [Listen to Raw ]([sample_raw.mp3](https://github.com/user-attachments/files/27630673/sample_raw.mp3) |
-| **Processed** | Final output enhanced with the custom DSP tuning | [Listen to Processed ]([sample_processed.mp3](https://github.com/user-attachments/files/27630616/sample_processed.mp3) |
-
+| **Raw Input** | Direct signal from the PCB | <audio controls src="microphone_DIY/Samples/sample_raw.mp3"></audio> |
+| **Processed** | Final output with DSP | <audio controls src="microphone_DIY/Samples/sample_processed.mp3"></audio> |
 
 ---
 
