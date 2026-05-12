@@ -9,28 +9,15 @@
 
 ![Main Board Isometric View](microphone_DIY/3D_images/Main_top_iso.png)
 
-Welcome to the **High-Fidelity DIY USB Microphone** project repository! This project features a custom-designed, two-board USB audio interface and microphone preamplifier built from scratch. The primary goal of this project was to achieve a studio-grade noise floor (-90 dB to -100 dB) using carefully selected components and advanced mixed-signal PCB design techniques.
+Welcome to the **High-Fidelity DIY USB Microphone** project repository! This project features a custom-designed, two-board USB audio interface and microphone preamplifier built from scratch. The primary goal of this project was to achieve a studio-grade vocal capture by combining a highly sensitive, interference-free custom PCB design with precise digital signal processing (DSP).
 
 ## 🌟 Key Features
-* **Ultra-Low Noise Floor:** Achieved ~ -90dB to -100dB noise floor in the mid/high frequencies thanks to strict analog/digital isolation.
+* **Clean Signal Path:** Strict analog/digital isolation ensures the audio path is free from high-frequency digital bleed, coil whine, and USB packet noise.
 * **Dual-Board Design:** Separates the noisy USB/Digital section (Main Board) from the highly sensitive analog preamplifier (Amp Board).
 * **Advanced Power Filtering:** Features a $\pi$ (Pi) filter on the USB VBUS and a dedicated 3.3V LDO (MCP1700) with optimized decoupling.
-* **Isolated PLL Power:** The internal clock of the audio codec is powered through a dedicated ferrite bead to prevent digital noise from bleeding into the audio path.
-* **Star Grounding:** Strict separation of Digital GND and Analog GND (AGNDC), tied together at a single point to eliminate ground loops.
-* **Premium Analog Front-End:** Utilizes the ultra-low noise **OPA1688** operational amplifier and supports high-end electret capsules like the **AOM-5024L**.
-
----
-
-## 📊 Performance & Measurements
-The circuit has been tested and analyzed to ensure the absence of USB digital noise, high-frequency coil whine, and ground loops. The spectral analysis of the raw audio output (silence/ambient room noise) yielded outstanding results.
-
-![Spectrum Analysis](microphone_DIY/3D_images/Frequency%20analysis.png)
-
-* **Low Frequencies (50 Hz - 150 Hz):** ~ -50 dB to -60 dB *(Represents natural room ambient noise, e.g., PC fans. No 50Hz mains hum detected).*
-* **Mid Frequencies (1 kHz - 5 kHz):** -78 dB dropping to -94 dB *(The most sensitive range for human hearing is completely free of digital artifacts).*
-* **High Frequencies (10 kHz - 20 kHz):** **-96 dB to -100 dB** *(Perfect isolation of the 12MHz crystal and PLL clock; no high-frequency interference bleeds into the audio path).*
-
-*Tip: The extreme cleanliness of the upper spectrum proves the effectiveness of the Pi filter and the isolated analog ground plane (AGNDC).*
+* **Premium Analog Front-End:** Utilizes the ultra-low noise **OPA1688** operational amplifier to unleash the full dynamic range of high-end electret capsules like the **Primo AOM-5024L**.
+* **Custom Acoustic Housing:** 3D-printed enclosure optimized for shock mounting and pop-filter integration to eliminate mechanical noise and plosives.
+* **DSP Tuned:** Because the custom hardware captures the acoustic reality of the room with extreme sensitivity, precise real-time tuning (via SteelSeries Sonar) is applied to achieve a flawless broadcast character.
 
 ---
 
@@ -58,21 +45,78 @@ The small, circular board is designed to be housed directly behind the microphon
 * **Input Filtering:** Features an RC filter on the microphone bias and an RF low-pass filter (100 Ω + 100 pF C0G capacitor) on the op-amp input to reject electromagnetic interference.
 * **Coupling:** High-quality capacitors block DC offset while preserving low-frequency bass response.
 
+### 3. Custom 3D-Printed Housing & Acoustics
+To protect the sensitive electronics and ensure optimal acoustic performance, a dedicated housing was designed.
+* **Acoustic Transparency:** The headbasket design allows sound waves to reach the capsule directly without causing unwanted internal reflections.
+* **Vibration Isolation:** The enclosure is fully compatible with standard shock mounts to decouple the microphone from desk vibrations.
+* **Plosive Control:** Designed to be used in tandem with an external pop filter, maintaining a minimum 5cm distance to effectively eliminate "P" and "B" wind blasts.
+
+---
+
+## 🎙️ Software Processing & DSP
+
+While the custom hardware provides a high-gain, uncolored raw signal, the final "studio broadcast" character is achieved through digital processing.
+
+**SteelSeries Sonar Configuration applied in this project:**
+* **Base Preset:** "Deep Voice" for a warm, rich proximity effect.
+* **ClearCast AI Noise Cancellation:** Set to ~65% to surgically remove any residual room noise without degrading vocal quality.
+* **Smart Volume (Compressor):** Enabled to ensure a consistent, powerful, and professional output level regardless of speaking distance (optimal distance tested: ~20cm).
+
+---
+
+## 📊 Performance & Measurements
+
+The circuit has been rigorously tested to ensure the absence of USB digital noise, high-frequency coil whine, and ground loops. 
+
+### Spectrum Analysis (Vocal Performance & DSP)
+
+The spectral analysis below demonstrates the frequency response of a recorded voice ("Harvard Sentences" test), showcasing the striking difference between the raw hardware output and the Sonar-processed signal. 
+
+#### Raw vs. Processed Spectrum Comparison
+
+![Raw Signal Spectrum](microphone_DIY/Samples/spectrum_raw.png)
+![Processed Signal Spectrum](microphone_DIY/Samples/spectrum_processed.png)
+
+* **Low-End (Below 90 Hz):** The highly sensitive capsule captures real room acoustics. The raw spectrum displays significant sub-bass rumble and room noise. In the processed spectrum, the 90Hz High-Pass Filter (HPF) successfully eliminates this useless acoustic noise, keeping the vocal fundamental incredibly clean.
+* **Mid-Range (100 Hz - 500 Hz):** The raw signal features jagged, resonant peaks which typically cause a "boxy" or muddy sound in untreated rooms. The processed spectrum smooths this area out, maintaining a strong, warm fundamental vocal presence (peaking smoothly around 120-150Hz) while aggressively taming the muddy frequencies (280Hz cut).
+* **High Frequencies & Sibilance (4 kHz - 8 kHz):** The raw spectrum has uncontrolled, harsh spikes in the sibilance range. The processed spectrum shows a much more controlled high-end, featuring a surgical roll-off and notch after 6-7 kHz to eliminate harsh "S" and "SH" sounds without losing vocal presence.
+
+### Audio Samples (Raw vs. Processed)
+Listen to the difference between the unprocessed signal and the final DSP-tuned output. The combination of the clean AOM-5024L hardware capture and DSP tuning produces a premium broadcast sound.
+
+| Version | Description | Audio File |
+| :--- | :--- | :--- |
+| **Raw Input** | Direct signal from the PCB without software processing | [Listen to Raw](./Samples/sample_raw.mp3) |
+| **Processed** | Final output enhanced with the custom DSP tuning | [Listen to Processed](./Samples/sample_processed.mp3) |
+
+---
+
+## 📸 Final Project Showcase
+
+Here is how the final, fully assembled DIY High-Fidelity Microphone looks in a real desktop environment:
+
+<p align="center">
+  <img src="microphone_DIY/Pictures/MIC_1.jpg" width="45%" alt="Microphone on arm">
+  <img src="microphone_DIY/Pictures/MIC_2.jpg" width="45%" alt="Microphone close-up">
+</p>
+
+*(The setup includes the custom 3D-printed body, an external shock mount, and a pop-filter positioned for optimal off-axis rejection).*
+
 ---
 
 ## 📂 Repository Structure
 
 * `3D_images/` - 3D renders of the PCBs and the microphone housing.
+* `Pictures/` - Final build photos and spectrum analysis charts.
+* `Samples/` - Audio test recordings (Raw and Processed).
 * `_Previews/` - Image previews of the board layouts and schematics.
 * `Project Logs...` & `Project Outputs...` - Altium Designer generation folders.
-* `Main_board_schematic.pdf` - PDF schematic of the USB Codec board.
-* `Amp_board_schematic.pdf` - PDF schematic of the Preamplifier board.
-* `Main_gerber_files.zip` - Production-ready Gerber and NC Drill files for the Main Board.
-* `Amp_gerber_files.zip` - Production-ready Gerber and NC Drill files for the Amp Board.
-* `*.SchDoc`, `*.PcbDoc`, `*.PrjPcb` - Source design files created in **Altium Designer**.
+* `Main_board_schematic.pdf` & `Amp_board_schematic.pdf` - PDF schematics.
+* `Main_gerber_files.zip` & `Amp_gerber_files.zip` - Production-ready Gerber and NC Drill files.
+* `*.SchDoc`, `*.PcbDoc`, `*.PrjPcb` - Source design files (Altium Designer).
 
 ## 🛠️ Fabrication & Assembly
-This project is fully ready for fabrication. You can directly upload the `Main_gerber_files.zip` and `Amp_gerber_files.zip` to your preferred PCB manufacturer (e.g., JLCPCB, PCBWay). 
+This project is fully ready for fabrication. You can directly upload the `.zip` Gerber files to your preferred PCB manufacturer. 
 * **Component Footprints:** Mostly **0805** imperial code for easy hand-soldering.
 * **Critical Components:** Ensure that C0G/NP0 dielectrics are used for pF-range capacitors in the audio path, and X7R/X5R for decoupling.
 
