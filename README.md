@@ -86,8 +86,9 @@ Listen to the difference between the unprocessed signal and the final DSP-tuned 
 
 | Version | Description | Audio File |
 | :--- | :--- | :--- |
-| **Raw Input** | Direct signal from the PCB without software processing | [Listen to Raw](./Samples/sample_raw.mp3) |
-| **Processed** | Final output enhanced with the custom DSP tuning | [Listen to Processed](./Samples/sample_processed.mp3) |
+| **Raw Input** | Direct signal from the PCB without software processing | [Listen to Raw]([./Samples/sample_raw.mp3](https://github.com/user-attachments/files/27630595/sample_raw.mp3)) |
+| **Processed** | Final output enhanced with the custom DSP tuning | [Listen to Processed](./Samples/sample_processed.mp3)[sample_processed.mp3](https://github.com/user-attachments/files/27630616/sample_processed.mp3) |
+
 
 ---
 
