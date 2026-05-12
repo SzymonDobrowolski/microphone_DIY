@@ -86,8 +86,8 @@ Listen to the difference between the unprocessed signal and the final DSP-tuned 
 
 | Version | Description | Audio Player |
 | :--- | :--- | :--- |
-| **Raw Input** | Direct signal from the PCB | <audio controls src="microphone_DIY/Samples/sample_raw.mp3"></audio> |
-| **Processed** | Final output with DSP | <audio controls src="microphone_DIY/Samples/sample_processed.mp3"></audio> |
+| **Raw Input** | Direct signal from the PCB | <audio controls src="https://raw.githubusercontent.com/SzymonDobrowolski/microphone_DIY/main/microphone_DIY/Samples/sample_raw.mp3"></audio> |
+| **Processed** | Final output with DSP | <audio controls src="https://raw.githubusercontent.com/SzymonDobrowolski/microphone_DIY/main/microphone_DIY/Samples/sample_processed.mp3"></audio> |
 
 ---
 
