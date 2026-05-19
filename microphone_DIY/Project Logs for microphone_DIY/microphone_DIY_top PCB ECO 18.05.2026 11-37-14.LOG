@@ -1,0 +1,137 @@
+Removed Pin From Net: NetName=NetC5_2 Pin=C6-1
+Removed Pin From Net: NetName=NetC5_1 Pin=J2-1
+Removed Pin From Net: NetName=NetC5_1 Pin=R2-1
+Removed Pin From Net: NetName=NetC5_2 Pin=R3-1
+Removed Pin From Net: NetName=LDO_OUT Pin=R3-2
+Removed Pin From Net: NetName=NetC4_1 Pin=R4-1
+Removed Pin From Net: NetName=NetC5_2 Pin=R4-2
+Removed Pin From Net: NetName=NetJ1_2 Pin=R5-1
+Removed Pin From Net: NetName=NetC8_1 Pin=R5-2
+Removed Pin From Net: NetName=AGNDC Pin=R6-1
+Removed Pin From Net: NetName=NetC5_2 Pin=R6-2
+Removed Pin From Net: NetName=NetC7_1 Pin=R7-1
+Removed Pin From Net: NetName=AGNDC Pin=U1-5
+Change Component Footprint: Designator=C5 Old Footprint=293D105X9016A2TE3-Footprint-1 New Footprint=FP-0805B-IPC_C
+Change Component Footprint: Designator=U1 Old Footprint=FP-D0008A-MFG New Footprint=FP-D0008A-IPC_A
+Change Component Footprint: Designator=R3 Old Footprint=RESC2013X70X40ML20T20 New Footprint=AR05BTCW1501-Footprint-1
+Change Component Footprint: Designator=R6 Old Footprint=RESC2013X70X40ML20T20 New Footprint=AR05BTCW1501-Footprint-1
+Change Component Comment : Designator=C5 Old Comment=293D105X9016A2TE3 New Comment=0805B104K500CT
+Change Component Comment : Designator=R3 Old Comment=ERJ-6ENF1002V New Comment=AR05BTCW1501
+Change Component Comment : Designator=R6 Old Comment=ERJ-6ENF1002V New Comment=AR05BTCW1501
+Change Component Comment : Designator=U1 Old Comment=OPA1688IDR New Comment=OPA1692IDR
+Change Managed Component Library Link : Designator=U1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=E97CC7FB-47C8-4DEC-90EA-2D8D9EB32754 New ItemGUID=DD157405-D5F9-4653-A54D-E608A3336C8C Old RevisionGUID=CE4810C5-75D6-4AAF-B988-FA80A748397C New RevisionGUID=79A5C17A-CAEE-468D-AA73-61EDE71360DC
+Change Managed Component Library Link : Designator=C5 Old VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=2e64fae1-bfeb-4161-8da2-0e5a9a20784b New ItemGUID=3E605316-ABCF-4432-9546-FCB3DFECCB3C Old RevisionGUID=890efcea-454c-4eb5-af15-f3da1edd1832 New RevisionGUID=EF60AB28-D6B0-4BBB-8A35-C9B9291816C5
+Change Managed Component Library Link : Designator=R3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID=F0424D7C-3667-4863-91AF-9F0C306C3900 New ItemGUID=edd99f7c-e40b-4afb-8f48-914b746dde62 Old RevisionGUID=4D2F5268-31F2-4C12-9CA9-4345715BF57E New RevisionGUID=edd12f17-0b1d-4183-9860-31a69ed75a54
+Change Managed Component Library Link : Designator=R6 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=968F7611-CCE3-423E-987A-7948D2B7BBA4 Old ItemGUID=F0424D7C-3667-4863-91AF-9F0C306C3900 New ItemGUID=edd99f7c-e40b-4afb-8f48-914b746dde62 Old RevisionGUID=4D2F5268-31F2-4C12-9CA9-4345715BF57E New RevisionGUID=edd12f17-0b1d-4183-9860-31a69ed75a54
+Change component parameters: Designator = "R5" ("R5"); Footprint = "AR05BTCW1501-Footprint-1"; UniqueID = "\WHDVICOP" ("\WHDVICOP")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R7" ("R7"); Footprint = "AR05BTCW1501-Footprint-1"; UniqueID = "\CTKIMLST" ("\CTKIMLST")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC2013X70X40ML20T20"; UniqueID = "\LXEJGRDU" ("\LXEJGRDU")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "RESC2013X70X40ML20T20"; UniqueID = "\EMCIPDVE" ("\EMCIPDVE")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1.5k"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "U1" ("U1"); Footprint = "FP-D0008A-MFG"; UniqueID = "\JAOFGJWW" ("\JAOFGJWW")
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "SOIC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gain Bandwidth Product"; Value = "5.1MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Bias Current"; Value = "300nA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Input Offset Voltage (Vos)"; Value = "250uV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Circuits"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "8"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Current"; Value = "650uA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current per Channel"; Value = "50mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Slew Rate"; Value = "23V/µs"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C5" ("C5"); Footprint = "293D105X9016A2TE3-Footprint-1"; UniqueID = "\HLPPXTUG" ("\HLPPXTUG")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "47nF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Added Component: Designator=R9(AR05BTCW1501-Footprint-1)
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC5_2 Pin=J2-1
+Added Pin To Net: NetName=NetC5_2 Pin=R2-1
+Added Pin To Net: NetName=NetC4_1 Pin=R3-1
+Added Pin To Net: NetName=NetC5_1 Pin=R3-2
+Added Pin To Net: NetName=NetJ1_2 Pin=R4-1
+Added Pin To Net: NetName=NetC8_1 Pin=R4-2
+Added Pin To Net: NetName=NetC5_1 Pin=R5-1
+Added Pin To Net: NetName=NetC7_1 Pin=R6-1
+Added Pin To Net: NetName=LDO_OUT Pin=R7-1
+Added Pin To Net: NetName=AGNDC Pin=R9-2
+Added Pin To Net: NetName=BIAS Pin=C6-1
+Added Pin To Net: NetName=BIAS Pin=R5-2
+Added Pin To Net: NetName=BIAS Pin=R7-2
+Added Pin To Net: NetName=BIAS Pin=R9-1
+Added Pin To Net: NetName=BIAS Pin=U1-6
+Added Net: Name=BIAS
+Added Pin To Net: NetName=NetR6_2 Pin=R6-2
+Added Pin To Net: NetName=NetR6_2 Pin=U1-2
+Added Net: Name=NetR6_2
+Added Pin To Net: NetName=NetU1_5 Pin=U1-5
+Added Pin To Net: NetName=NetU1_5 Pin=U1-7
+Added Net: Name=NetU1_5
+Change Class Name : Old Net Name=Mic_top New Net Name=new_amp
+Added Member To Class: ClassName=new_amp Member=Component R9 AR05BTCW1501

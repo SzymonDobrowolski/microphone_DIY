@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: microphone_DIY_top.PcbDoc   06.03.2026  14:08:37
+NCDrill File Report For: microphone_DIY_top.PcbDoc   19.05.2026  13:28:59
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,10 +7,10 @@ ASCII Plated RoundHoles File : microphone_DIY_top-Plated.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.711mm (28mil)                                           Round             2         PTH        9.10mm (0.36inch)
-T2      1.02mm (40mil)                                            Round             5         PTH        28.07mm (1.11inch)
+T1      0.711mm (28mil)                                           Round             12        PTH        70.55mm (2.78inch)
+T2      1.02mm (40mil)                                            Round             5         PTH        27.54mm (1.08inch)
 T3      3.2mm (126mil)                                            Round             2         PTH        32.00mm (1.26inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              9
+Totals                                                                              19
 
 Total Processing Time (hh:mm:ss) : 00:00:00
